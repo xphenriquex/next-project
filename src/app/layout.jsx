@@ -7,7 +7,7 @@ import { GlobalStyles } from "../styles/global.styles";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" >
+    <html lang="pt-br" >
       <body suppressHydrationWarning={true}>
         <ThemeProvider theme={theme}>
           <GlobalStyles />
